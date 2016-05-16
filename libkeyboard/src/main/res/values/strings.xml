@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Keyboard</string>
+    <string name="key_finish">完成</string>
+    <string name="key_space">空格</string>
+    <string name="keyboard_name">快钱安全键盘</string>
+    <string name="keyboard_number_symbol">.?123</string>
+    <string name="keyboard_alphabet">ABC</string>
+    <string name="keyboard_number">123</string>
+    <string name="keyboard_symbol">#+=</string>
+</resources>

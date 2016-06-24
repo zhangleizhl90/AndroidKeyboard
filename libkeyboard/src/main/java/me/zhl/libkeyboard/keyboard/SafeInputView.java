@@ -97,10 +97,6 @@ public class SafeInputView extends EditText {
         mKeyboard.setContentVisible(isVisible);
     }
 
-    public String getContentWithPublicKey() {
-        return mKeyboard != null ? mKeyboard.getContentWithPublicKey() : "";
-    }
-
     public String getRawContent() {
         return mKeyboard != null ? mKeyboard.getRawContent() : "";
     }
@@ -108,7 +104,6 @@ public class SafeInputView extends EditText {
     public String getContent() {
         return mKeyboard != null ? mKeyboard.getContent() : "";
     }
-
 
     public void hideKeyboard() {
         if (mKeyboard != null) {

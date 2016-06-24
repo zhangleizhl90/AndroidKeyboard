@@ -145,7 +145,7 @@ public class SafeKeyboard extends PopupWindow implements OnClickListener {
 
     /**
      * 设置内容的最大长度
-     * @param maxLength
+     * @param maxLength 内容的最大长度
      */
     public void setMaxLength(int maxLength) {
         mMaxLength = maxLength;
